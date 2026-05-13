@@ -34,3 +34,6 @@ scenarios:
   - name: all_healthy
     description: "Baseline — both providers healthy"
     provider_overrides: {}
+  - name: cache_stale_candidate
+    description: "Low similarity threshold — tests false-hit guardrails catch year-sensitive queries"
+    provider_overrides: {}
